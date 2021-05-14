@@ -11,7 +11,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "Write a description regarding your project",
+    message: "Write a description regarding your project.",
     name: "description",
   },
   {
@@ -26,9 +26,9 @@ const questions = [
   },
   {
     type: "list",
-    message: "What license would you like to use?",
+    message: "What license did you use?",
     choices: ["MIT", "ISC", "GPL", ""],
-    name: "license,",
+    name: "license",
   },
   {
     type: "input",
@@ -47,7 +47,7 @@ const questions = [
   },
   {
     type: "input",
-    message: "What is your email?",
+    message: "What is your email?S",
     name: "email",
   },
 ];
